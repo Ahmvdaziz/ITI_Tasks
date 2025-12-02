@@ -1,0 +1,32 @@
+
+ console.log("RemoveAll Dub",removdub(numbers));
+//____
+
+console.log("Array  Afetr Sorted ", resAfterSort);
+
+//_____________________________________________
+
+console.log("Numbers>50:", filGThan50(numbers));
+
+
+console.log("Numbers > 50:", numAfterFilter);
+
+
+//_______________________________________________
+console.log("Min value: ", getMin(numbers));
+
+console.log("Max value: ", getMax(numbers));
+///---------
+console.log("Min2 value ",resAfterSort[1]);
+
+console.log("max2 value ",resAfterSort[numbers.length-1]);
+
+console.log("Max3:", Math.max.apply(null, numbers));
+console.log("Min3:", Math.min.apply(null, numbers));
+//______________________________________
+
+sumAll([1,2,3,4,5]);
+
+//_________________________
+
+sum2All(1,2,3,4,5);
